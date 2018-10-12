@@ -1,20 +1,19 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(joy_to_raspberrypi)
+project(ros_joy_teleop)
 
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   roscpp
   rospy
   std_msgs
-#  cont_msg
 )
 
 # catkin_python_setup()
 ## Generate messages in the 'msg' folder
- add_message_files(
-   FILES
-   Controller.msg
- )
+# add_message_files(
+#   FILES
+#
+# )
 
 # add_service_files(
 #   FILES
@@ -35,7 +34,7 @@ generate_messages(
 
 catkin_package(
 #  INCLUDE_DIRS include
-  LIBRARIES joy_to_raspberrypi
+  LIBRARIES ros_joy_teleop
   CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )

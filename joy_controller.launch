@@ -1,4 +1,4 @@
 <launch>
   <node name="joy_node" pkg="joy" type="joy_node"/>
-  <node name="joy_controller" pkg="joy_to_raspberrypi" type="joy_cont.py"/>
+  <node name="joy_controller" pkg="ros_joy_teleop" type="joy_cont.py"/>
 </launch>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>joy_to_raspberrypi</name>
+  <name>ros_joy_teleop</name>
   <version>0.0.0</version>
   <description>The joy_to_raspberrypi package</description>
 
